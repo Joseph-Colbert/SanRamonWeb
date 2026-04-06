@@ -14,15 +14,15 @@ export function Hero() {
       {/* Hero Images Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2">
         {/* Left Image with Overlay Text */}
-        <div className="relative h-[400px] md:h-[550px] bg-[#f5f0e8] flex items-center justify-center">
+        <div className="relative h-[400px] md:h-[550px] bg-[#f5f0e8] overflow-hidden">
           <Image
             src="/images/hero-cheese.jpg"
             alt="Tabla de quesos artesanales con miel, almendras y arándanos secos"
             fill
-            className="object-contain p-4"
+            className="object-cover object-center"
           />
           {/* Overlay Card */}
-          <div className="absolute bottom-8 left-8 right-8 md:left-12 md:right-auto md:max-w-xs">
+          <div className="absolute bottom-8 left-8 right-8 md:left-12 md:right-auto md:max-w-xs z-10">
             <div className="bg-[#f5f0e8]/95 backdrop-blur-sm rounded-full p-6 md:p-8">
               <p className="text-sm md:text-base text-foreground leading-relaxed mb-4">
                 Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con los quesos más finos de la región. Únete a nosotros en este viaje gastronómico lleno de sabores únicos.
@@ -35,7 +35,7 @@ export function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative h-[400px] md:h-[550px] overflow-hidden">
+        <div className="relative h-[400px] md:h-[550px] overflow-hidden bg-[#f5f0e8]">
           <Image
             src="/images/tabla-principal.jpeg"
             alt="Tabla de quesos artesanales con kiwi, frutillas, jamón y queso"
