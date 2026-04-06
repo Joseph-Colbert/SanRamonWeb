@@ -26,8 +26,8 @@ export function SpecialOffer() {
         {/* Right Column - Image */}
         <div className="relative h-[400px] lg:h-[550px] overflow-hidden">
           <Image
-            src="/images/tabla-principal.jpeg"
-            alt="Tabla de quesos gourmet con todos nuestros ingredientes premium"
+            src="/images/special-offer-detail.jpg"
+            alt="Detalle de tabla de quesos gourmet con ingredientes premium"
             fill
             className="object-cover object-bottom scale-90"
           />
