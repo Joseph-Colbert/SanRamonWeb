@@ -40,7 +40,7 @@ export function Hero() {
             src="/images/tabla-principal.jpeg"
             alt="Tabla de quesos artesanales con kiwi, frutillas, jamón y queso"
             fill
-            className="object-contain object-center scale-110"
+            className="object-cover object-center"
           />
         </div>
       </div>
