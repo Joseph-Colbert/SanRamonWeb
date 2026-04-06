@@ -24,12 +24,12 @@ export function Contact() {
     <section id="contact" className="bg-white">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left Column - Image with Overlay */}
-        <div className="relative h-[400px] lg:h-[600px]">
+        <div className="relative h-[400px] lg:h-[650px] bg-[#f5f0e8] flex items-center justify-center">
           <Image
             src="/images/tabla-principal.jpeg"
             alt="Tabla gourmet con quesos, kiwi, frutillas, jamón y arándanos secos"
             fill
-            className="object-cover"
+            className="object-contain p-6"
           />
           {/* Contact Card Overlay */}
           <div className="absolute bottom-8 left-8 right-8 md:left-12 md:max-w-xs">

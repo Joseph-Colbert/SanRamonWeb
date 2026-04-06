@@ -24,12 +24,12 @@ export function SpecialOffer() {
         </div>
 
         {/* Right Column - Image */}
-        <div className="relative h-[400px] lg:h-[500px]">
+        <div className="relative h-[400px] lg:h-[550px] bg-white flex items-center justify-center">
           <Image
             src="/images/tabla-principal.jpeg"
             alt="Tabla de quesos gourmet con todos nuestros ingredientes premium"
             fill
-            className="object-cover"
+            className="object-contain p-6"
           />
         </div>
       </div>
