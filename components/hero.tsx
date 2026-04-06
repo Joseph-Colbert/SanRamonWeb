@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
 
 export function Hero() {
   return (
@@ -22,13 +24,16 @@ export function Hero() {
             className="object-cover object-center"
           />
           {/* Overlay Card */}
+          {/* Overlay Card */}
           <div className="absolute bottom-8 left-8 right-8 md:left-12 md:right-auto md:max-w-xs z-10">
-            <div className="bg-[#f5f0e8]/95 backdrop-blur-sm rounded-full p-6 md:p-8">
+            <div className="bg-[#f5f0e8]/95 backdrop-blur-sm rounded-full p-6 md:p-8 flex flex-col items-center text-center">
+
               <p className="text-sm md:text-base text-foreground leading-relaxed mb-4">
-                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con quesos orgánico del chaco. Únete a nosotros en este viaje gastronómico lleno de sabores únicos.
+                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con quesos orgánico del chaco.
               </p>
+
               <Button className="bg-foreground text-white hover:bg-foreground/90 rounded-full px-6">
-                Explorar Más
+                <Link href="#special-offer">Explorar Más</Link>
               </Button>
             </div>
           </div>
