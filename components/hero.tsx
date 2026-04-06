@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section className="bg-white">
       {/* Title */}
-      <div className="px-6 md:px-12 py-6">
+      <div className="px-6 md:px-12 py-6 text-center">
         <h1 className="font-serif text-[#2d5a27] text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
           DELICIAS DE QUESO
         </h1>
