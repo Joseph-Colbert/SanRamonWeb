@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function About() {
@@ -8,7 +9,7 @@ export function About() {
         {/* Left Column - Title */}
         <div className="lg:col-span-3 p-8 md:p-12 flex flex-col justify-center">
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-[#2d5a27] leading-tight">
-            Sobre<br />Nosotr<br />os
+            Sobre<br />Nosotros
           </h2>
         </div>
 
@@ -18,9 +19,11 @@ export function About() {
             En SP, nos apasiona ofrecer experiencias únicas a través de nuestras tablas de quesos. Seleccionamos quesos de alta calidad de pequeños productores locales, asegurando que cada tabla representa lo mejor de la tradición quesera. Ven y disfruta de una celebración de sabores y texturas.
           </p>
           <div>
-            <Button className="bg-[#2d5a27] text-white hover:bg-[#2d5a27]/90 rounded-full px-6">
-              Descubre Más
-            </Button>
+            <Link href="/historia">
+              <Button className="bg-[#2d5a27] text-white hover:bg-[#2d5a27]/90 rounded-full px-6">
+                Descubre Más
+              </Button>
+            </Link>
           </div>
         </div>
 

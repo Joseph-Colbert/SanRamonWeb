@@ -50,7 +50,7 @@ export function Hero() {
         <div className="animate-marquee whitespace-nowrap flex gap-8">
           {[...Array(10)].map((_, i) => (
             <span key={i} className="flex items-center gap-2 text-sm font-medium text-foreground">
-              FREE DELIVERY OVER 80 USD
+              ENVIO GRATUITO
               <span className="text-[#2d5a27]">✦</span>
             </span>
           ))}
