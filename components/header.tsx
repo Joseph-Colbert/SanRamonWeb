@@ -21,11 +21,11 @@ export function Header() {
         <Link href="#about" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
           Sobre Nosotros
         </Link>
+        <Link href="#special-offer" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
+          Comprar
+        </Link>
         <Link href="#contact" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
           Contáctanos
-        </Link>
-        <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          Comprar
         </Link>
       </nav>
 
@@ -52,11 +52,11 @@ export function Header() {
           <Link href="#about" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
             Sobre Nosotros
           </Link>
+          <Link href="#special-offer" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
+            Comprar
+          </Link>
           <Link href="#contact" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
             Contáctanos
-          </Link>
-          <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            Comprar
           </Link>
         </nav>
       )}

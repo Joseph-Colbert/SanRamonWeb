@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export function SpecialOffer() {
   return (
-    <section className="bg-[#f5f0e8]">
+    <section id="special-offer" className="bg-[#f5f0e8]">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* Left Column - Text Content */}
         <div className="p-8 md:p-12 lg:p-16 flex flex-col justify-center">
