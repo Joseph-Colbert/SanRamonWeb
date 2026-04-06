@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Instagram, Facebook, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,10 +8,13 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           {/* Logo */}
-          <div>
-            <Link href="/" className="text-[#2d5a27] font-medium text-lg">
-              J. Chen
-            </Link>
+          <div className="flex items-center">
+            <Image
+              src="/images/logo1.png"
+              alt="Logo San Ramón"
+              width={130}
+              height={130}
+            />
           </div>
 
           {/* Contact Info */}
