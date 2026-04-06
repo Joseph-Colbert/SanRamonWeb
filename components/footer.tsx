@@ -53,7 +53,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-foreground/10 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 by J. Chen. Powered and secured by v0.
+            © 2026 San Ramón — tradición y sabor artesanal desde el corazón del Chaco. v1.0.0
           </p>
         </div>
       </div>

@@ -45,13 +45,14 @@ export default function HistoriaPage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
               El Comienzo de un Sueño
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Delicias de Queso nació en 2018 de la pasión de nuestra fundadora por la gastronomía artesanal. 
-              Lo que comenzó como un hobbie preparando tablas para reuniones familiares, se convirtió en un 
-              emprendimiento que hoy lleva sabor y elegancia a cientos de hogares.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
+              Nuestra historia comienza en un pueblo llamado Carandaytí ubicado
+              en la región del Chaco chuquisaqueño, caracterizada por un clima cálido y vegetación propia del bosque seco, donde predominan actividades como la agricultura, la ganadería.
+              Además, esta zona tiene una importante presencia de pueblos indígenas, especialmente del pueblo Guaraní, lo que influye en sus costumbres, organización y cultura.
+              En resumen Carandaytí es una comunidad pequeña, rural y culturalmente rica, integrada al entorno chaqueño de Chuquisaca.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nuestra misión siempre ha sido clara: ofrecer productos de la más alta calidad, seleccionando 
+              Nuestra misión siempre ha sido clara: ofrecer productos de la más alta calidad, seleccionando
               cuidadosamente cada ingrediente para crear experiencias gastronómicas inolvidables.
             </p>
           </div>
@@ -72,14 +73,14 @@ export default function HistoriaPage() {
               Nuestra Filosofía
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Creemos que una buena tabla de quesos es más que un simple aperitivo; es una obra de arte 
-              comestible que reúne a las personas. Por eso, cada tabla que creamos está diseñada para 
+              Creemos que una buena tabla de quesos es más que un simple aperitivo; es una obra de arte
+              comestible que reúne a las personas. Por eso, cada tabla que creamos está diseñada para
               deleitar tanto a la vista como al paladar.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Trabajamos directamente con productores locales de quesos artesanales, seleccionando 
-              variedades únicas que van desde quesos suaves y cremosos hasta opciones curadas y aromáticas. 
-              Complementamos cada tabla con frutas frescas de temporada, frutos secos premium y 
+              Trabajamos directamente con productores locales de quesos artesanales, seleccionando
+              variedades únicas que van desde quesos suaves y cremosos hasta opciones curadas y aromáticas.
+              Complementamos cada tabla con frutas frescas de temporada, frutos secos premium y
               acompañamientos gourmet.
             </p>
           </div>
@@ -131,13 +132,13 @@ export default function HistoriaPage() {
               Nuestros Productos
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Nuestras tablas incluyen una cuidadosa selección de quesos artesanales acompañados de 
-              frutillas frescas, higos maduros, kiwi jugoso, uvas dulces, almendras tostadas, 
-              arándanos secos, miel de abeja pura, y una variedad de embutidos premium como salame 
+              Nuestras tablas incluyen una cuidadosa selección de quesos artesanales acompañados de
+              frutillas frescas, higos maduros, kiwi jugoso, uvas dulces, almendras tostadas,
+              arándanos secos, miel de abeja pura, y una variedad de embutidos premium como salame
               y jamón serrano.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Ofrecemos diferentes tamaños de tablas para adaptarnos a cualquier ocasión, desde 
+              Ofrecemos diferentes tamaños de tablas para adaptarnos a cualquier ocasión, desde
               una cena íntima para dos hasta grandes celebraciones familiares o eventos corporativos.
             </p>
           </div>
@@ -148,7 +149,7 @@ export default function HistoriaPage() {
               ¿Listo para probar?
             </h2>
             <p className="text-foreground mb-6 max-w-2xl mx-auto">
-              Descubre por qué cientos de clientes confían en nosotros para sus momentos especiales. 
+              Descubre por qué cientos de clientes confían en nosotros para sus momentos especiales.
               Haz tu pedido hoy y disfruta de una experiencia gastronómica única.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -170,7 +171,7 @@ export default function HistoriaPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2024 Delicias de Queso. Todos los derechos reservados.
+          © 2026 San Ramón — tradición y sabor artesanal desde el corazón del Chaco. v1.0.0
         </p>
       </footer>
     </main>

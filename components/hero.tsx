@@ -25,7 +25,7 @@ export function Hero() {
           <div className="absolute bottom-8 left-8 right-8 md:left-12 md:right-auto md:max-w-xs z-10">
             <div className="bg-[#f5f0e8]/95 backdrop-blur-sm rounded-full p-6 md:p-8">
               <p className="text-sm md:text-base text-foreground leading-relaxed mb-4">
-                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con los quesos más finos de la región. Únete a nosotros en este viaje gastronómico lleno de sabores únicos.
+                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con quesos orgánico del chaco. Únete a nosotros en este viaje gastronómico lleno de sabores únicos.
               </p>
               <Button className="bg-foreground text-white hover:bg-foreground/90 rounded-full px-6">
                 Explorar Más
