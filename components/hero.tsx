@@ -16,8 +16,8 @@ export function Hero() {
         {/* Left Image with Overlay Text */}
         <div className="relative h-[400px] md:h-[500px]">
           <Image
-            src="https://images.unsplash.com/photo-1571680322279-a226e6a4cc2a?w=800&q=80"
-            alt="Frutas frescas y queso"
+            src="/images/hero-cheese.jpg"
+            alt="Tabla de quesos artesanales con miel, almendras y arándanos secos"
             fill
             className="object-cover"
           />
@@ -37,8 +37,8 @@ export function Hero() {
         {/* Right Image */}
         <div className="relative h-[400px] md:h-[500px]">
           <Image
-            src="https://images.unsplash.com/photo-1582515073490-39981397c445?w=800&q=80"
-            alt="Melones y frutas frescas"
+            src="/images/hero-charcuterie.jpg"
+            alt="Tabla de charcutería con salame, jamón, frutillas, higos y kiwi"
             fill
             className="object-cover"
           />

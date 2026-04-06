@@ -26,8 +26,8 @@ export function SpecialOffer() {
         {/* Right Column - Image */}
         <div className="relative h-[400px] lg:h-[500px]">
           <Image
-            src="https://images.unsplash.com/photo-1596591868231-05e908752cc3?w=800&q=80"
-            alt="Frutas frescas en tabla de madera"
+            src="/images/special-offer.jpg"
+            alt="Tabla de quesos con miel, salame, frutillas, higos y almendras"
             fill
             className="object-cover"
           />

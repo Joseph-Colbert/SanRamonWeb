@@ -26,8 +26,8 @@ export function Contact() {
         {/* Left Column - Image with Overlay */}
         <div className="relative h-[400px] lg:h-[600px]">
           <Image
-            src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=800&q=80"
-            alt="Frutas frescas"
+            src="/images/contact-board.jpg"
+            alt="Tabla gourmet con quesos, jamón, salame, kiwi, higos y uvas"
             fill
             className="object-cover"
           />
