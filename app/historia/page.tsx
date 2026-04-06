@@ -18,6 +18,14 @@ export default function HistoriaPage() {
             <ArrowLeft className="w-5 h-5" />
             <span className="text-sm">Volver al inicio</span>
           </Link>
+          <div className="flex items-center">
+            <Image
+              src="/images/logo2.png"
+              alt="Logo San Ramón"
+              width={80}
+              height={80}
+            />
+          </div>
           <span className="font-serif text-xl font-bold">Delicias de Queso</span>
         </div>
       </header>
@@ -46,14 +54,9 @@ export default function HistoriaPage() {
               El Comienzo de un Sueño
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
-              Nuestra historia comienza en un pueblo llamado Carandaytí ubicado
-              en la región del Chaco chuquisaqueño, caracterizada por un clima cálido y vegetación propia del bosque seco, donde predominan actividades como la agricultura, la ganadería.
-              Además, esta zona tiene una importante presencia de pueblos indígenas, especialmente del pueblo Guaraní, lo que influye en sus costumbres, organización y cultura.
-              En resumen Carandaytí es una comunidad pequeña, rural y culturalmente rica, integrada al entorno chaqueño de Chuquisaca.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Nuestra misión siempre ha sido clara: ofrecer productos de la más alta calidad, seleccionando
-              cuidadosamente cada ingrediente para crear experiencias gastronómicas inolvidables.
+              El Origen de San Ramón:
+
+              Nuestra historia y nuestros sabores nacen en Carandaytí, un rincón mágico en el corazón del Chaco chuquisaqueño. Esta tierra cálida, abrazada por la inmensidad del monte, es hogar de una profunda riqueza cultural y tradiciones ancestrales, fuertemente marcadas por la herencia del pueblo Guaraní. Es una comunidad rural pequeña pero llena de vida, donde la agricultura y la ganadería se llevan a cabo con el mismo respeto y amor de siempre. En San Ramón, honramos nuestras raíces y el trabajo de la región para llevar un pedacito de la esencia del Chaco directamente a tu mesa.
             </p>
           </div>
 
@@ -70,12 +73,11 @@ export default function HistoriaPage() {
           {/* Our Philosophy */}
           <div className="mb-16">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
-              Nuestra Filosofía
+              ¿Cómo se hace nuestro queso?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Creemos que una buena tabla de quesos es más que un simple aperitivo; es una obra de arte
-              comestible que reúne a las personas. Por eso, cada tabla que creamos está diseñada para
-              deleitar tanto a la vista como al paladar.
+
+              Elaboramos nuestro queso siguiendo celosamente las costumbres de antaño de las familias ganaderas del Chaco. La magia de su sabor y textura radica en un proceso totalmente natural y orgánico: no utilizamos cuajos químicos ni acelerantes industriales. Empleamos métodos tradicionales heredados de generación en generación, respetando los tiempos del campo para lograr un queso artesanal con un perfil de sabor único y verdaderamente nuestro.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Trabajamos directamente con productores locales de quesos artesanales, seleccionando
@@ -129,17 +131,10 @@ export default function HistoriaPage() {
           {/* Our Products */}
           <div className="mb-16">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
-              Nuestros Productos
+              ¿Cómo se recolecta nuestra miel?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              Nuestras tablas incluyen una cuidadosa selección de quesos artesanales acompañados de
-              frutillas frescas, higos maduros, kiwi jugoso, uvas dulces, almendras tostadas,
-              arándanos secos, miel de abeja pura, y una variedad de embutidos premium como salame
-              y jamón serrano.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Ofrecemos diferentes tamaños de tablas para adaptarnos a cualquier ocasión, desde
-              una cena íntima para dos hasta grandes celebraciones familiares o eventos corporativos.
+              Nuestra miel no proviene de criaderos de abejas convencionales; es un verdadero tesoro silvestre. Te ofrecemos la auténtica "miel de palo", recolectada directamente de los troncos de los árboles nativos en el monte chaqueño. Este método de recolección rústica permite que la miel conserve absolutamente todos sus nutrientes y propiedades naturales, regalándote una textura pura y un sabor completamente distinto, con las notas florales y únicas de nuestra región.
             </p>
           </div>
 
@@ -149,7 +144,7 @@ export default function HistoriaPage() {
               ¿Listo para probar?
             </h2>
             <p className="text-foreground mb-6 max-w-2xl mx-auto">
-              Descubre por qué cientos de clientes confían en nosotros para sus momentos especiales.
+              Descubre por qué confíar en nosotros para sus momentos especiales.
               Haz tu pedido hoy y disfruta de una experiencia gastronómica única.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

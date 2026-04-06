@@ -16,7 +16,9 @@ export function About() {
         {/* Middle Column - Text and Button */}
         <div className="lg:col-span-5 p-8 md:p-12 flex flex-col justify-center">
           <p className="text-foreground leading-relaxed mb-6">
-            En SP, nos apasiona ofrecer experiencias únicas a través de nuestras tablas de quesos. Seleccionamos quesos de alta calidad de pequeños productores locales, asegurando que cada tabla representa lo mejor de la tradición quesera. Ven y disfruta de una celebración de sabores y texturas.
+            Carandaytí se encuentra ubicada en la región del Chaco chuquisaqueño, caracterizada por un clima cálido y vegetación propia del bosque seco, donde predominan actividades como la agricultura, la ganadería.
+            Además, esta zona tiene una importante presencia de pueblos indígenas, especialmente del pueblo Guaraní, lo que influye en sus costumbres, organización y cultura.
+            En resumen Carandaytí es una comunidad pequeña, rural y culturalmente rica, integrada al entorno chaqueño de Chuquisaca.
           </p>
           <div>
             <Link href="/historia">

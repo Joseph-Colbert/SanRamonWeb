@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const ingredients = [
   {
     name: "Queso",
-    description: "Queso artesanal seleccionado, cortado en cubos perfectos. Suave, cremoso y de sabor inigualable.",
+    description: "Queso orgánico seleccionado, cortado en cubos. Suave, cremoso y de sabor inigualable.",
     icon: "🧀",
   },
   {
