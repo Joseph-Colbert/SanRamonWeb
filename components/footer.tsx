@@ -12,29 +12,19 @@ export function Footer() {
             <Image
               src="/images/logo1.png"
               alt="Logo San Ramón"
-              width={130}
-              height={130}
+              width={80}
+              height={80}
             />
           </div>
 
           {/* Contact Info */}
+          <br />
           <div className="space-y-2">
-            <p className="text-sm text-foreground">123-456-7890</p>
-            <p className="text-sm text-foreground">info@mysite.com</p>
+            <p className="text-sm text-foreground">+591 76511219</p>
+            <p className="text-sm text-foreground">joseph97cm@gmail.com</p>
             <div className="pt-2">
-              <p className="text-sm text-foreground">500 Terry Francine St, San</p>
-              <p className="text-sm text-foreground">Francisco, CA 94158</p>
+              <p className="text-sm text-foreground">La Paz - Bolivia</p>
             </div>
-          </div>
-
-          {/* Links */}
-          <div className="space-y-2">
-            <Link href="#" className="block text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="block text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-              Accessibility Statement
-            </Link>
           </div>
 
           {/* Social Links */}

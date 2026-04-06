@@ -3,15 +3,21 @@
 import Link from "next/link"
 import { ShoppingBag, Menu, X } from "lucide-react"
 import { useState } from "react"
+import Image from "next/image"
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <header className="bg-white py-4 px-6 md:px-12 flex items-center justify-between relative z-50">
-      <Link href="/" className="text-[#2d5a27] font-medium text-lg">
-        RM
-      </Link>
+      <div className="flex items-center">
+        <Image
+          src="/images/logo1.png"
+          alt="Logo San Ramón"
+          width={110}
+          height={110}
+        />
+      </div>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-8">
