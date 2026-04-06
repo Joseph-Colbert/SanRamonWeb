@@ -35,12 +35,12 @@ export function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative h-[400px] md:h-[550px] overflow-hidden bg-[#f5f0e8]">
+        <div className="relative md:h-[550px] overflow-hidden bg-[#f5f0e8]">
           <Image
             src="/images/tabla-principal.jpeg"
             alt="Tabla de quesos artesanales con kiwi, frutillas, jamón y queso"
             fill
-            className="object-cover object-center scale-90"
+            className="object-cover object-center scale-100"
           />
         </div>
       </div>

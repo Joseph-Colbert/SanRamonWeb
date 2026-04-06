@@ -10,7 +10,7 @@ export function Header() {
   return (
     <header className="bg-white py-4 px-6 md:px-12 flex items-center justify-between relative z-50">
       <Link href="/" className="text-[#2d5a27] font-medium text-lg">
-        J. Chen
+        RM
       </Link>
 
       {/* Desktop Navigation */}
@@ -39,9 +39,9 @@ export function Header() {
         <button className="text-[#2d5a27] hover:opacity-70 transition-opacity">
           <ShoppingBag className="w-5 h-5" />
         </button>
-        
+
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-[#2d5a27]"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
