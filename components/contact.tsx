@@ -26,8 +26,8 @@ export function Contact() {
         {/* Left Column - Image with Overlay */}
         <div className="relative h-[400px] lg:h-[600px]">
           <Image
-            src="/images/contact-board.jpg"
-            alt="Tabla gourmet con quesos, jamón, salame, kiwi, higos y uvas"
+            src="/images/tabla-principal.jpeg"
+            alt="Tabla gourmet con quesos, kiwi, frutillas, jamón y arándanos secos"
             fill
             className="object-cover"
           />

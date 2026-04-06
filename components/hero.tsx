@@ -37,8 +37,8 @@ export function Hero() {
         {/* Right Image */}
         <div className="relative h-[400px] md:h-[500px]">
           <Image
-            src="/images/hero-charcuterie.jpg"
-            alt="Tabla de charcutería con salame, jamón, frutillas, higos y kiwi"
+            src="/images/tabla-principal.jpeg"
+            alt="Tabla de quesos artesanales con kiwi, frutillas, jamón y queso"
             fill
             className="object-cover"
           />
