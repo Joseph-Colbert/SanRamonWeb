@@ -79,7 +79,7 @@ export default function ProductoPage() {
               Delicias de Queso
             </h1>
             <p className="text-muted-foreground leading-relaxed text-base mb-8 max-w-md">
-              Una tabla cuidadosamente armada con los mejores ingredientes frescos y artesanales. Ideal para compartir en cualquier ocasión, desde una reunión íntima hasta una celebración especial.
+              Una tabla cuidadosamente armada con los mejores ingredientes frescos y artesanales. Ideal para compartir en cualquier ocasión, desde una reunión íntima hasta una celebración especial a tan solo 190 Bs.
             </p>
             <div className="flex items-center gap-4 flex-wrap">
               <Link href="#ingredientes">

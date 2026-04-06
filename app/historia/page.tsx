@@ -150,7 +150,7 @@ export default function HistoriaPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/#special-offer">
                 <Button className="bg-[#2d5a27] text-white hover:bg-[#2d5a27]/90 rounded-full px-8 py-6 text-lg">
-                  Ver Ofertas
+                  Comprar
                 </Button>
               </Link>
               <Link href="/#contact">

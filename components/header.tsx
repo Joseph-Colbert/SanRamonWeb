@@ -36,9 +36,11 @@ export function Header() {
       </nav>
 
       <div className="flex items-center gap-4">
-        <button className="text-[#2d5a27] hover:opacity-70 transition-opacity">
-          <ShoppingBag className="w-5 h-5" />
-        </button>
+        <Link href="#special-offer">
+          <button className="text-[#2d5a27] hover:opacity-70 transition-opacity">
+            <ShoppingBag className="w-5 h-5" />
+          </button>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
