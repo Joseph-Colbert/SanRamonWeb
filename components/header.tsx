@@ -19,19 +19,13 @@ export function Header() {
           Home
         </Link>
         <Link href="#about" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          About
+          Sobre Nosotros
         </Link>
         <Link href="#contact" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          Contact
+          Contáctanos
         </Link>
         <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          Shop
-        </Link>
-        <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          Portfolio
-        </Link>
-        <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-          More
+          Comprar
         </Link>
       </nav>
 
@@ -56,19 +50,13 @@ export function Header() {
             Home
           </Link>
           <Link href="#about" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            About
+            Sobre Nosotros
           </Link>
           <Link href="#contact" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            Contact
+            Contáctanos
           </Link>
           <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            Shop
-          </Link>
-          <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            Portfolio
-          </Link>
-          <Link href="#" className="text-sm text-foreground hover:text-[#2d5a27] transition-colors">
-            More
+            Comprar
           </Link>
         </nav>
       )}
