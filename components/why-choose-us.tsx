@@ -5,13 +5,13 @@ const features = [
   {
     icon: Award,
     title: "Calidad Premium",
-    description: "Garantizamos quesos de la más alta calidad, seleccionados cuidadosamente de productores de confianza. Siente la diferencia con cada bocado.",
+    description: "Trabajamos con la riqueza de nuestra región y de puestos ganaderos vecinos para ofrecerte ingredientes 100% orgánicos, libres de químicos y llenos de historia.",
     iconColor: "text-[#f5a623]",
   },
   {
     icon: Sparkles,
     title: "Selección Única",
-    description: "Descubre una variedad de quesos que no encontrarás en ningún otro lugar. Desde quesos curados hasta frescos, nuestra oferta tiene algo especial para cada amante del queso.",
+    description: "Elegirnos es disfrutar de sabores puros y rústicos que no encontrarás en ningún supermercado.",
     iconColor: "text-[#f5a623]",
   },
   {
@@ -37,9 +37,6 @@ export function WhyChooseUs() {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4 md:mb-0">
             ¿Por Qué Elegirnos?
           </h2>
-          <Button className="bg-[#2d5a27] text-white hover:bg-[#2d5a27]/90 rounded-full px-6 w-fit">
-            Calidad Primero
-          </Button>
         </div>
 
         {/* Features Grid */}
