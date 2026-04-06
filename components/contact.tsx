@@ -29,7 +29,7 @@ export function Contact() {
             src="/images/tabla-principal.jpeg"
             alt="Tabla gourmet con quesos, kiwi, frutillas, jamón y arándanos secos"
             fill
-            className="object-cover object-bottom"
+            className="object-cover object-bottom scale-90"
           />
           {/* Contact Card Overlay */}
           <div className="absolute bottom-8 left-8 right-8 md:left-12 md:max-w-xs">

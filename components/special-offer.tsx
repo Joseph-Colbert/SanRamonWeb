@@ -29,7 +29,7 @@ export function SpecialOffer() {
             src="/images/tabla-principal.jpeg"
             alt="Tabla de quesos gourmet con todos nuestros ingredientes premium"
             fill
-            className="object-cover object-bottom"
+            className="object-cover object-bottom scale-90"
           />
         </div>
       </div>
