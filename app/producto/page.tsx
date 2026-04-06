@@ -82,7 +82,7 @@ export default function ProductoPage() {
                   Ver Ingredientes
                 </Button>
               </Link>
-              <Link href="/#contact">
+              <Link href="https://wa.me/59171234567?text=Hola%20quiero%20informacion" target="_blank">
                 <Button variant="outline" className="rounded-full px-8 py-5 text-base border-[#2d5a27] text-[#2d5a27] hover:bg-[#2d5a27]/10">
                   Hacer un Pedido
                 </Button>
@@ -143,7 +143,7 @@ export default function ProductoPage() {
         <p className="text-white/80 max-w-md mx-auto mb-8 leading-relaxed">
           Contactanos y armamos tu tabla a medida. Envíos disponibles para toda la zona.
         </p>
-        <Link href="/#contact">
+        <Link href="https://wa.me/59171234567?text=Hola%20quiero%20informacion" target="_blank">
           <Button className="bg-[#f5a623] text-[#1a1a1a] hover:bg-[#f5a623]/90 rounded-full px-10 py-5 text-base font-semibold">
             Hacer un Pedido
           </Button>
