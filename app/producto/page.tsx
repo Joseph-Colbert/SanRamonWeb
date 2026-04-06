@@ -51,9 +51,14 @@ export default function ProductoPage() {
 
       {/* Header */}
       <header className="bg-white border-b border-border px-6 md:px-12 py-4 flex items-center justify-between sticky top-0 z-50">
-        <Link href="/" className="font-serif text-xl font-bold text-[#2d5a27]">
-          J. Chen
-        </Link>
+        <div className="flex items-center">
+          <Image
+            src="/images/logo1.png"
+            alt="Logo San Ramón"
+            width={90}
+            height={90}
+          />
+        </div>
         <Link href="/">
           <Button variant="ghost" className="text-sm text-foreground hover:text-[#2d5a27] rounded-full">
             ← Volver al inicio
@@ -82,7 +87,7 @@ export default function ProductoPage() {
                   Ver Ingredientes
                 </Button>
               </Link>
-              <Link href="https://wa.me/59171234567?text=Hola%20quiero%20informacion" target="_blank">
+              <Link href="https://wa.me/59176511219?text=Hola%20quiero%20informacion" target="_blank">
                 <Button variant="outline" className="rounded-full px-8 py-5 text-base border-[#2d5a27] text-[#2d5a27] hover:bg-[#2d5a27]/10">
                   Hacer un Pedido
                 </Button>
@@ -141,9 +146,9 @@ export default function ProductoPage() {
           ¿Listo para pedir tu tabla?
         </h2>
         <p className="text-white/80 max-w-md mx-auto mb-8 leading-relaxed">
-          Contactanos y armamos tu tabla a medida. Envíos disponibles para toda la zona.
+          Contactanos y armamos tu tabla a medida. Envíos disponibles centro y zona sur.
         </p>
-        <Link href="https://wa.me/59171234567?text=Hola%20quiero%20informacion" target="_blank">
+        <Link href="https://wa.me/59176511219?text=Hola%20quiero%20informacion" target="_blank">
           <Button className="bg-[#f5a623] text-[#1a1a1a] hover:bg-[#f5a623]/90 rounded-full px-10 py-5 text-base font-semibold">
             Hacer un Pedido
           </Button>
