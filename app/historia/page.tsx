@@ -33,8 +33,8 @@ export default function HistoriaPage() {
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px]">
         <Image
-          src="/images/hero-cheese.jpg"
-          alt="Nuestras tablas de queso artesanales"
+          src="/images/SR2.jpeg"
+          alt="San Ramon 2"
           fill
           className="object-cover"
         />
@@ -63,8 +63,8 @@ export default function HistoriaPage() {
           {/* Image Break */}
           <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden mb-16">
             <Image
-              src="/images/about-figs.jpg"
-              alt="Ingredientes frescos seleccionados"
+              src="/images/SR3.jpeg"
+              alt="San Ramon 3"
               fill
               className="object-cover"
             />
@@ -121,8 +121,8 @@ export default function HistoriaPage() {
           {/* Image Break */}
           <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden mb-16">
             <Image
-              src="/images/about-grapes.jpg"
-              alt="Frutas frescas para nuestras tablas"
+              src="/images/SR4.jpeg"
+              alt="San Ramon 4"
               fill
               className="object-cover"
             />

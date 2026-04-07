@@ -32,8 +32,8 @@ export function About() {
         {/* Right Column - Image */}
         <div className="lg:col-span-4 relative h-[300px] lg:h-auto">
           <Image
-            src="/images/about-kiwi.jpg"
-            alt="Kiwi en rodajas con almendras y miel"
+            src="/images/SR1.jpeg"
+            alt="San Ramon 1"
             fill
             className="object-cover"
           />
