@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Instagram, Facebook, Twitter } from "lucide-react"
+import { InstagramIcon, FacebookIcon, TwitterIcon } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -21,7 +21,7 @@ export function Footer() {
           <br />
           <div className="space-y-2">
             <p className="text-sm text-foreground">+591 76511219</p>
-            <p className="text-sm text-foreground">joseph97cm@gmail.com</p>
+            <p className="text-sm text-foreground">sanramonlpz@gmail.com</p>
             <div className="pt-2">
               <p className="text-sm text-foreground">La Paz - Bolivia</p>
             </div>
@@ -30,15 +30,17 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex items-start gap-4 md:justify-end">
             <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Instagram className="w-5 h-5" />
+              <InstagramIcon className="w-5 h-5" />
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Facebook className="w-5 h-5" />
+
+            <Link href="https://www.facebook.com/share/18PWraeQF7/" className="text-foreground hover:text-[#2d5a27] transition-colors">
+              <FacebookIcon className="w-5 h-5" />
               <span className="sr-only">Facebook</span>
             </Link>
-            <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Twitter className="w-5 h-5" />
+
+            <Link href="https://www.tiktok.com/@sanramon.bo?_r=1&_t=ZS-95P2xXXYCob" className="text-foreground hover:text-[#2d5a27] transition-colors">
+              <TwitterIcon className="w-5 h-5" />
               <span className="sr-only">Twitter</span>
             </Link>
           </div>
@@ -47,7 +49,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-foreground/10 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2026 San Ramón — tradición y sabor artesanal desde el corazón del Chaco. v1.0.0
+            © 2026 San Ramón — Tradición y sabor artesanal desde el corazón del Chaco. v1.0.1
           </p>
         </div>
       </div>

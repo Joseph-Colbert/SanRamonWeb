@@ -29,7 +29,7 @@ export function Hero() {
             <div className="bg-[#f5f0e8]/95 backdrop-blur-sm rounded-full p-6 md:p-8 flex flex-col items-center text-center">
 
               <p className="text-sm md:text-base text-foreground leading-relaxed mb-4">
-                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con quesos orgánico del chaco.
+                Descubre la exquisitez de nuestras tablas de queso artesanales, elaboradas con quesos orgánicos del Chaco
               </p>
 
               <Button className="bg-foreground text-white hover:bg-foreground/90 rounded-full px-6">

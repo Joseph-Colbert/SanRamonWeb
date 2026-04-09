@@ -33,7 +33,7 @@ export default function HistoriaPage() {
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px]">
         <Image
-          src="/images/SR2.jpeg"
+          src="/images/SR2.jpg"
           alt="San Ramon 2"
           fill
           className="object-cover"
@@ -75,11 +75,11 @@ export default function HistoriaPage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
               ¿Cómo se hace nuestro queso?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
 
               Elaboramos nuestro queso siguiendo celosamente las costumbres de antaño de las familias ganaderas del Chaco. La magia de su sabor y textura radica en un proceso totalmente natural y orgánico: no utilizamos cuajos químicos ni acelerantes industriales. Empleamos métodos tradicionales heredados de generación en generación, respetando los tiempos del campo para lograr un queso artesanal con un perfil de sabor único y verdaderamente nuestro.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
               Trabajamos directamente con productores locales de quesos artesanales, seleccionando
               variedades únicas que van desde quesos suaves y cremosos hasta opciones curadas y aromáticas.
               Complementamos cada tabla con frutas frescas de temporada, frutos secos premium y
@@ -133,7 +133,7 @@ export default function HistoriaPage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
               ¿Cómo se recolecta nuestra miel?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
               Nuestra miel no proviene de criaderos de abejas convencionales; es un verdadero tesoro silvestre. Te ofrecemos la auténtica "miel de palo", recolectada directamente de los troncos de los árboles nativos en el monte chaqueño. Este método de recolección rústica permite que la miel conserve absolutamente todos sus nutrientes y propiedades naturales, regalándote una textura pura y un sabor completamente distinto, con las notas florales y únicas de nuestra región.
             </p>
           </div>
@@ -166,7 +166,7 @@ export default function HistoriaPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2026 San Ramón — tradición y sabor artesanal desde el corazón del Chaco. v1.0.0
+          © 2026 San Ramón — Tradición y sabor artesanal desde el corazón del Chaco. v1.0.1
         </p>
       </footer>
     </main>
