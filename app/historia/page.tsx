@@ -75,11 +75,11 @@ export default function HistoriaPage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
               ¿Cómo se hace nuestro queso?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
 
               Elaboramos nuestro queso siguiendo celosamente las costumbres de antaño de las familias ganaderas del Chaco. La magia de su sabor y textura radica en un proceso totalmente natural y orgánico: no utilizamos cuajos químicos ni acelerantes industriales. Empleamos métodos tradicionales heredados de generación en generación, respetando los tiempos del campo para lograr un queso artesanal con un perfil de sabor único y verdaderamente nuestro.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
               Trabajamos directamente con productores locales de quesos artesanales, seleccionando
               variedades únicas que van desde quesos suaves y cremosos hasta opciones curadas y aromáticas.
               Complementamos cada tabla con frutas frescas de temporada, frutos secos premium y
@@ -133,7 +133,7 @@ export default function HistoriaPage() {
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2d5a27] mb-6">
               ¿Cómo se recolecta nuestra miel?
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4 text-justify">
               Nuestra miel no proviene de criaderos de abejas convencionales; es un verdadero tesoro silvestre. Te ofrecemos la auténtica "miel de palo", recolectada directamente de los troncos de los árboles nativos en el monte chaqueño. Este método de recolección rústica permite que la miel conserve absolutamente todos sus nutrientes y propiedades naturales, regalándote una textura pura y un sabor completamente distinto, con las notas florales y únicas de nuestra región.
             </p>
           </div>
