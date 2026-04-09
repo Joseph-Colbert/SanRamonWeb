@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Instagram, Facebook, Twitter } from "lucide-react"
+import { InstagramIcon, FacebookIcon, TwitterIcon } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -30,15 +31,17 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex items-start gap-4 md:justify-end">
             <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Instagram className="w-5 h-5" />
+              <InstagramIcon className="w-5 h-5" />
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Facebook className="w-5 h-5" />
+
+            <Link href="https://www.facebook.com/share/18PWraeQF7/" className="text-foreground hover:text-[#2d5a27] transition-colors">
+              <FacebookIcon className="w-5 h-5" />
               <span className="sr-only">Facebook</span>
             </Link>
+
             <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
-              <Twitter className="w-5 h-5" />
+              <TwitterIcon className="w-5 h-5" />
               <span className="sr-only">Twitter</span>
             </Link>
           </div>
