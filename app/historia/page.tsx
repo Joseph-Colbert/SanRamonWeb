@@ -33,7 +33,7 @@ export default function HistoriaPage() {
       {/* Hero Section */}
       <section className="relative h-[300px] md:h-[400px]">
         <Image
-          src="/images/SR2.jpeg"
+          src="/images/SR2.jpg"
           alt="San Ramon 2"
           fill
           className="object-cover"
@@ -166,7 +166,7 @@ export default function HistoriaPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2026 San Ramón — tradición y sabor artesanal desde el corazón del Chaco. v1.0.0
+          © 2026 San Ramón — Tradición y sabor artesanal desde el corazón del Chaco. v1.0.1
         </p>
       </footer>
     </main>
