@@ -79,6 +79,7 @@ export default function HistoriaPage() {
 
               Elaboramos nuestro queso siguiendo celosamente las costumbres de antaño de las familias ganaderas del Chaco. La magia de su sabor y textura radica en un proceso totalmente natural y orgánico: no utilizamos cuajos químicos ni acelerantes industriales. Empleamos métodos tradicionales heredados de generación en generación, respetando los tiempos del campo para lograr un queso artesanal con un perfil de sabor único y verdaderamente nuestro.
             </p>
+
             <p className="text-lg text-muted-foreground leading-relaxed text-justify">
               Trabajamos directamente con productores locales de quesos artesanales, seleccionando
               variedades únicas que van desde quesos suaves y cremosos hasta opciones curadas y aromáticas.
@@ -166,7 +167,7 @@ export default function HistoriaPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2026 San Ramón — Tradición y sabor artesanal desde el corazón del Chaco. v1.0.1
+          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
         </p>
       </footer>
     </main>
