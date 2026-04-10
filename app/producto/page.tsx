@@ -87,7 +87,7 @@ export default function ProductoPage() {
                   Ver Ingredientes
                 </Button>
               </Link>
-              <Link href="https://wa.me/59176511219?text=Hola%20quiero%20informacion" target="_blank">
+              <Link href="https://wa.me/59176511219?text=Hola%20😊%20estoy%20interesado%20en%20sus%20tablas%20de%20quesos,%20¿podrían%20brindarme%20información%20sobre%20precios%20y%20disponibilidad?" target="_blank">
                 <Button variant="outline" className="rounded-full px-8 py-5 text-base border-[#2d5a27] text-[#2d5a27] hover:bg-[#2d5a27]/10">
                   Hacer un Pedido
                 </Button>
@@ -148,13 +148,18 @@ export default function ProductoPage() {
         <p className="text-white/80 max-w-md mx-auto mb-8 leading-relaxed">
           Contactanos y armamos tu tabla a medida. Envíos disponibles centro y zona sur.
         </p>
-        <Link href="https://wa.me/59176511219?text=Hola%20quiero%20informacion" target="_blank">
+        <Link href="https://wa.me/59176511219?text=Hola%20😊%20estoy%20interesado%20en%20sus%20tablas%20de%20quesos,%20¿podrían%20brindarme%20información%20sobre%20precios%20y%20disponibilidad?" target="_blank">
           <Button className="bg-[#f5a623] text-[#1a1a1a] hover:bg-[#f5a623]/90 rounded-full px-10 py-5 text-base font-semibold">
             Hacer un Pedido
           </Button>
         </Link>
       </section>
-
+      {/* Footer */}
+      <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
+        <p className="text-sm opacity-80">
+          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
+        </p>
+      </footer>
     </main>
   )
 }

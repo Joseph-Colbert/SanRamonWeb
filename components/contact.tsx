@@ -42,7 +42,7 @@ export function Contact() {
           </p>
 
           <a
-            href="https://wa.me/59176511219?text=Hola%20quiero%20informacion%20sobre%20sus%20productos"
+            href="https://wa.me/59176511219?text=Hola%20😊%20estoy%20interesado%20en%20sus%20tablas%20de%20quesos,%20¿podrían%20brindarme%20información%20sobre%20precios%20y%20disponibilidad?"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#2d5a27] text-white px-6 py-3 rounded-full w-fit hover:opacity-90 transition font-medium"

@@ -49,7 +49,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-foreground/10 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2026 San Ramón — Tradición y sabor artesanal desde el corazón del Chaco. v1.0.1
+            © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
           </p>
         </div>
       </div>
