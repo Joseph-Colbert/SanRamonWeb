@@ -29,7 +29,7 @@ export function Footer() {
 
           {/* Social Links */}
           <div className="flex items-start gap-4 md:justify-end">
-            <Link href="#" className="text-foreground hover:text-[#2d5a27] transition-colors">
+            <Link href="https://www.instagram.com/sanramon.bo/" className="text-foreground hover:text-[#2d5a27] transition-colors">
               <InstagramIcon className="w-5 h-5" />
               <span className="sr-only">Instagram</span>
             </Link>
@@ -49,7 +49,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="border-t border-foreground/10 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
+            © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.2
           </p>
         </div>
       </div>

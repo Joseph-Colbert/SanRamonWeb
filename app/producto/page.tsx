@@ -79,7 +79,7 @@ export default function ProductoPage() {
               Delicias de Queso
             </h1>
             <p className="text-muted-foreground leading-relaxed text-base mb-8 max-w-md">
-              Una tabla cuidadosamente armada con los mejores ingredientes frescos y artesanales. Ideal para compartir en cualquier ocasión, desde una reunión íntima hasta una celebración especial a tan solo 190 Bs.
+              Una tabla cuidadosamente armada con los mejores ingredientes frescos y artesanales. Ideal para compartir en cualquier ocasión, con una medida de 27x18. Desde una reunión íntima hasta una celebración especial a tan solo 190 Bs.
             </p>
             <div className="flex items-center gap-4 flex-wrap">
               <Link href="#ingredientes">
@@ -157,7 +157,7 @@ export default function ProductoPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
+          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.2
         </p>
       </footer>
     </main>

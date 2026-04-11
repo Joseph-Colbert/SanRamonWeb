@@ -15,7 +15,7 @@ export function About() {
 
         {/* Middle Column - Text and Button */}
         <div className="lg:col-span-5 p-8 md:p-12 flex flex-col justify-center">
-          <p className="text-foreground leading-relaxed mb-6 text-justify">
+          <p className="text-foreground leading-relaxed mb-6 text-justify justify-center">
             En el corazón de la tierra chaqueña, envuelta en los aromas del mistol, los lapachos y los quebrachos, donde el calor del monte funde culturas y forja tradiciones ganaderas junto al valor de su gente, se levanta Carandaytí: un pueblo benemérito, guardián de la educación de nuevas generaciones y de la historia de una nación construida por sus habitantes.
             De esta tierra fértil y vigorosa, sus pobladores han sabido extraer el aroma y la fuerza del Chaco para transformarlos en sabores únicos.
             Así nace el queso chaqueño, una expresión auténtica que llega a su paladar con la intensidad y el carácter de la tierra de Carandaytí.

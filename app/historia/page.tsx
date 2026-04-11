@@ -167,7 +167,7 @@ export default function HistoriaPage() {
       {/* Footer */}
       <footer className="bg-[#2d5a27] text-white py-8 px-6 md:px-12 text-center">
         <p className="text-sm opacity-80">
-          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.1
+          © 2026 San Ramón. Todos los derechos reservados.Tradición y sabor artesanal desde el corazón del Chaco. • v1.0.2
         </p>
       </footer>
     </main>
